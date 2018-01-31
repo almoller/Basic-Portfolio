@@ -1,0 +1,75 @@
+body {
+    background: lightgrey;
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+/* HEADER STYLE */
+
+header {
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 0px 0px 50px 0px;
+    padding: 0;
+    float: left;
+    width: 960px;
+    box-shadow: 5px 10px 20px gray;
+    
+}
+
+.logo {
+    background: lightseagreen;
+    border-radius: 10px 0px 0px 10px;
+    color: #ffffff;
+    padding: 0px 15px;
+    width: 180px;
+    text-align: center;
+    float: left;
+    width: 200px;
+}
+
+.navBar {
+    float: right;
+    margin-top: 0px;
+}
+
+.navBar li {
+    float: left;
+    list-style: none;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px -7px;
+} 
+
+.navDivider {
+    color: gray;
+    font-stretch: extra-expanded;
+    padding: 0px;
+    margin: 0px -7px;
+}
+
+.navBar a:link,
+a:visited {
+    text-decoration: none;
+    color: gray;
+    padding: 5px 23px;
+    margin: 0px -5px;
+}
+
+.navBar a:active {
+    color: gray;
+    font-weight: bold;
+}
+
+.navBar a:hover {
+    background: lightseagreen;
+    color: #ffffff;    
+}
+
+/* CONTENT & SIDEBAR STYLE */
+
+section {
+    clear: both;
+}
+
